@@ -96,10 +96,10 @@ export default function Index() {
           </div>
           {/* For md screen size */}
           {/* For large screens */}
-          <div className="dark:bg-gray-900 bg-gray-50 px-6 py-9">
+          <div className="dark:bg-gray-900  px-6 py-9">
             <div className="container mx-auto flex items-center justify-between">
               <h1
-                className="md:w-2/12 cursor-pointer text-gray-800 dark:text-white"
+                className="md:w-2/12 cursor-pointer text-white dark:text-white"
                 aria-label="the Crib."
               >
                 {/* <svg

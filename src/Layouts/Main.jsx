@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../Page/Shared/Header/Header';
 import Footer from '../Page/Shared/Footer/Footer';
 import coverImage from '../assets/Rectangle-1.png';
+// import CardSlider from '../Page/Shared/CardSlider/CardSlider';
+console.log(coverImage);
 
 export default function Main() {
   return (
@@ -12,6 +14,10 @@ export default function Main() {
       }}
     >
       <Header />
+      <div className="grid grid-cols-[2fr_1fr]">
+        <div></div>
+        <div>{/* <CardSlider /> */}</div>
+      </div>
       <Footer />
     </div>
   );
