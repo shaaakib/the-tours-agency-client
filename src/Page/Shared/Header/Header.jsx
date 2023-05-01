@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/logo-white.png';
 
 export default function Index() {
   const [searchInput, setSearchInput] = useState(true);
@@ -17,7 +17,7 @@ export default function Index() {
               mdOptionsToggle ? 'hidden' : 'flex'
             } bg-white dark:bg-gray-900 lg:hidden py-5 px-6 items-center justify-between`}
           >
-            <div className="flex items-center space-x-3 text-gray-800 dark:text-white">
+            <div className="flex items-center space-x-3 text-white dark:text-white">
               <div>
                 <svg
                   className="fill-stroke"
@@ -58,7 +58,7 @@ export default function Index() {
               </button>
               <button
                 aria-label="go to cart"
-                className="text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
+                className="text-white dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
               >
                 {/* <svg
                   className="fill-stroke"
@@ -119,13 +119,13 @@ export default function Index() {
                     fill="currentColor"
                   />
                 </svg> */}
-                <img className="w-24" src={logo} alt="" />
+                <img className="w-24  fill-white" src={logo} alt="" />
               </h1>
               <ul className="hidden w-8/12 md:flex items-center justify-center space-x-8">
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                    className="dark:text-white text-base text-white focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
                     News
                   </a>
@@ -133,7 +133,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                    className="dark:text-white text-base text-white focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
                     Destination
                   </a>
@@ -141,7 +141,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                    className="dark:text-white text-base text-white focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
                     Blog
                   </a>
@@ -149,7 +149,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                    className="dark:text-white text-base text-white focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
                     Contact
                   </a>
@@ -160,7 +160,7 @@ export default function Index() {
                   <button
                     onClick={() => setSearchInput(!searchInput)}
                     aria-label="search items"
-                    className="text-gray-800 dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="text-white dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
                     <svg
                       className="fill-stroke"
@@ -204,38 +204,8 @@ export default function Index() {
                   </button>
                   <button
                     aria-label="go to cart"
-                    className="text-gray-800 dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="text-white dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
-                    {/* <svg
-                      className="fill-stroke"
-                      width={26}
-                      height={26}
-                      viewBox="0 0 26 26"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M5 1L1 5.8V22.6C1 23.2365 1.28095 23.847 1.78105 24.2971C2.28115 24.7471 2.95942 25 3.66667 25H22.3333C23.0406 25 23.7189 24.7471 24.219 24.2971C24.719 23.847 25 23.2365 25 22.6V5.8L21 1H5Z"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M1 5.7998H25"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M18.3346 10.6001C18.3346 11.8731 17.7727 13.094 16.7725 13.9942C15.7723 14.8944 14.4158 15.4001 13.0013 15.4001C11.5868 15.4001 10.2303 14.8944 9.23007 13.9942C8.22987 13.094 7.66797 11.8731 7.66797 10.6001"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg> */}
                     Name
                   </button>
                 </div>
@@ -280,7 +250,7 @@ export default function Index() {
                   <button
                     aria-label="open menu"
                     onClick={() => setShowMenu(true)}
-                    className="text-black dark:text-white dark:hover:text-gray-300 md:hidden focus:outline-none focus:ring-2 rounded focus:ring-gray-600"
+                    className="text-white dark:text-white dark:hover:text-gray-300 md:hidden focus:outline-none focus:ring-2 rounded focus:ring-gray-600"
                   >
                     <svg
                       className="fill-stroke"
@@ -328,7 +298,7 @@ export default function Index() {
               <div className="flex items-center space-x-3">
                 <div>
                   <svg
-                    className="fill-stroke text-gray-800 dark:text-white"
+                    className="fill-stroke text-black dark:text-white"
                     width={20}
                     height={20}
                     viewBox="0 0 20 20"
@@ -363,7 +333,7 @@ export default function Index() {
                 className="focus:outline-none focus:ring-2 rounded focus:ring-gray-600"
               >
                 <svg
-                  className="fill-stroke text-gray-800 dark:text-white"
+                  className="fill-stroke text-black dark:text-white"
                   width={16}
                   height={16}
                   viewBox="0 0 16 16"
@@ -390,7 +360,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="dark:text-white flex items-center justify-between hover:underline text-base text-black focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
                     News
                     <div>
@@ -416,7 +386,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="dark:text-white flex items-center justify-between hover:underline text-base text-black focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
                     Destination
                     <div>
@@ -442,7 +412,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="dark:text-white flex items-center justify-between hover:underline text-base text-black focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
                     Blog
                     <div>
@@ -468,7 +438,7 @@ export default function Index() {
                 <li>
                   <a
                     href="javascript:void(0)"
-                    className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="dark:text-white flex items-center justify-between hover:underline text-base text-black focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
                     Contact
                     <div>
@@ -496,33 +466,7 @@ export default function Index() {
             <div className="h-full flex items-end">
               <ul className="flex flex-col space-y-8 bg-gray-50 w-full py-10 p-4 dark:bg-gray-800">
                 <li className="bg-orange-400 py-2 px-3 rounded-lg">Login</li>
-                <li>
-                  {/* <a
-                    href="javascript:void(0)"
-                    className="dark:text-white text-gray-800 flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
-                  >
-                    <div>
-                      <svg
-                        className="fill-stroke"
-                        width={20}
-                        height={20}
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M17.3651 3.84172C16.9395 3.41589 16.4342 3.0781 15.8779 2.84763C15.3217 2.61716 14.7255 2.49854 14.1235 2.49854C13.5214 2.49854 12.9252 2.61716 12.369 2.84763C11.8128 3.0781 11.3074 3.41589 10.8818 3.84172L9.99847 4.72506L9.11514 3.84172C8.25539 2.98198 7.08933 2.49898 5.87347 2.49898C4.65761 2.49898 3.49155 2.98198 2.6318 3.84172C1.77206 4.70147 1.28906 5.86753 1.28906 7.08339C1.28906 8.29925 1.77206 9.46531 2.6318 10.3251L3.51514 11.2084L9.99847 17.6917L16.4818 11.2084L17.3651 10.3251C17.791 9.89943 18.1288 9.39407 18.3592 8.83785C18.5897 8.28164 18.7083 7.68546 18.7083 7.08339C18.7083 6.48132 18.5897 5.88514 18.3592 5.32893C18.1288 4.77271 17.791 4.26735 17.3651 3.84172V3.84172Z"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <p className="text-base">Wishlist</p>
-                  </a> */}
-                  name
-                </li>
+                <li>name</li>
               </ul>
             </div>
           </div>
